@@ -41,8 +41,8 @@ npm run dev
 
 The above command will do the following:
 
-    a. Starts the front-end package on [http://localhost:4200/](http://localhost:4200).
-    b. Starts the backend graphql QL server on [http://localhost:5000/graphql](http://localhost:5000/graphql)
+    1. Starts the front-end package on `http://localhost:4200/`
+    2. Starts the backend graphql QL server on `http://localhost:5000/graphql`
 
 ## License
 
