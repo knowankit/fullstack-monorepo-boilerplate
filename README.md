@@ -1,5 +1,3 @@
-# fullstack-monorepo-boilerplate
-
 ![alt text](https://github.com/knowankit/fullstack-monorepo-boilerplate/blob/develop/banner.png)
 
 <p align="center">
@@ -10,7 +8,7 @@
 
 ## Overview
 
-This monorepo is built using [Nx](https://nx.dev/), [NestJS](https://docs.nestjs.com/), [GraphQL](https://graphql.org/), [MongoDB](https://www.mongodb.com/), [ReactJS](https://reactjs.org/) with other libraries like [Formik](https://formik.org/), [MaterialUI](https://mui.com/).
+This monorepo is built using [Nx](https://nx.dev/), [NestJS](https://docs.nestjs.com/), [GraphQL](https://graphql.org/), [MongoDB](https://www.mongodb.com/), [ReactJS](https://reactjs.org/) with other libraries like [Formik](https://formik.org/), [MaterialUI](https://mui.com/). 
 
 ## Requirements
 
