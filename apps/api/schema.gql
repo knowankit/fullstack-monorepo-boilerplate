@@ -6,7 +6,7 @@ input CreateTaskInput {
   _id: ID!
   description: String
   endDate: DateTime
-  startDate: DateTime = "2022-04-02T07:59:42.767Z"
+  startDate: DateTime = "2022-04-02T08:21:45.099Z"
   status: String = "pending"
   title: String!
 }
