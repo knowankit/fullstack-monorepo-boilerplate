@@ -1,0 +1,28 @@
+{
+  "root": "apps/fe-e2e",
+  "sourceRoot": "apps/fe-e2e/src",
+  "projectType": "application",
+  "targets": {
+    "e2e": {
+      "executor": "@nrwl/cypress:cypress",
+      "options": {
+        "cypressConfig": "apps/fe-e2e/cypress.json",
+        "devServerTarget": "fe:serve"
+      },
+      "configurations": {
+        "production": {
+          "devServerTarget": "fe:serve:production"
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["apps/fe-e2e/**/*.js"]
+      }
+    }
+  },
+  "tags": [],
+  "implicitDependencies": ["fe"]
+}
