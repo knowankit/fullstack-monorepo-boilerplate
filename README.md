@@ -31,6 +31,10 @@ From the project root, we can run the following command to bootstrap the package
 npm install
 ```
 
+### Database 
+
+This app uses mongoDB, so please make sure you have monogoDB server and to access the data you can use MongoDB Compass. Once you have these tools, you should create a database called `todo` (this is what I have given in the grapQL code, you can change it anytime).
+
 ### 4. **Start the packages**
 
 From the project root, we can run the following command to start our Node.js packages:
