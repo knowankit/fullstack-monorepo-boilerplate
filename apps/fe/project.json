@@ -12,8 +12,8 @@
         "outputPath": "dist/apps/fe",
         "index": "apps/fe/src/index.html",
         "baseHref": "/",
-        "main": "apps/fe/src/main.js",
-        "polyfills": "apps/fe/src/polyfills.js",
+        "main": "apps/fe/src/main.tsx",
+        "polyfills": "apps/fe/src/polyfills.ts",
         "tsConfig": "apps/fe/tsconfig.app.json",
         "assets": ["apps/fe/src/favicon.ico", "apps/fe/src/assets"],
         "styles": ["apps/fe/src/styles.scss"],
@@ -24,8 +24,8 @@
         "production": {
           "fileReplacements": [
             {
-              "replace": "apps/fe/src/environments/environment.js",
-              "with": "apps/fe/src/environments/environment.prod.js"
+              "replace": "apps/fe/src/environments/environment.ts",
+              "with": "apps/fe/src/environments/environment.prod.ts"
             }
           ],
           "optimization": true,

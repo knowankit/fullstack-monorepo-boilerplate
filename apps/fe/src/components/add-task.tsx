@@ -4,6 +4,11 @@ import { CREATE_TASK } from '../api/task/mutations';
 import { GET_TASKS } from '../api/task/queries';
 import { TextField, Button, Stack } from '@mui/material';
 
+interface FormValues {
+  title?: string;
+  description?: string;
+}
+
 const AddTask = () => {
   const [createTask] = useMutation(CREATE_TASK);
 
@@ -12,7 +17,7 @@ const AddTask = () => {
       <Formik
         initialValues={{ title: '', description: '' }}
         validate={(values) => {
-          const errors = {};
+          const errors: FormValues = {};
           if (!values.title) {
             errors.title = 'Required';
           }

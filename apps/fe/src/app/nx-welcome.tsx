@@ -5,7 +5,7 @@
  Delete this file and get started with your project!
  * * * * * * * * * * * * * * * * * * * * * * * * * * * *
  */
-export function NxWelcome({ title }) {
+export function NxWelcome({ title }: { title: string }) {
   return (
     <>
       <style
@@ -816,4 +816,5 @@ export function NxWelcome({ title }) {
     </>
   );
 }
+
 export default NxWelcome;
