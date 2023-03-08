@@ -16,7 +16,7 @@
     "@mui/material": "^5.5.3",
     "@nestjs/apollo": "^10.0.8",
     "@nestjs/common": "^8.4.3",
-    "@nestjs/core": "^8.4.3",
+    "@nestjs/core": "^9.0.5",
     "@nestjs/graphql": "^10.0.8",
     "@nestjs/mongoose": "^9.0.3",
     "@nestjs/platform-express": "^8.4.3",
