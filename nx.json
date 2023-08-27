@@ -4,7 +4,7 @@
     "defaultBase": "main"
   },
   "cli": {
-    "defaultCollection": "@nrwl/nest"
+    "defaultCollection": "@nx/nest"
   },
   "implicitDependencies": {
     "package.json": {
@@ -15,7 +15,7 @@
   },
   "tasksRunnerOptions": {
     "default": {
-      "runner": "@nrwl/nx-cloud",
+      "runner": "nx-cloud",
       "options": {
         "cacheableOperations": ["build", "lint", "test", "e2e"],
         "accessToken": "ZDVlMzczNmUtODk4ZC00ZTgzLTllOTAtYWMzNDJhYjBjNTMyfHJlYWQtd3JpdGU="
@@ -32,7 +32,7 @@
   },
   "defaultProject": "api",
   "generators": {
-    "@nrwl/react": {
+    "@nx/react": {
       "application": {
         "style": "scss",
         "linter": "eslint",

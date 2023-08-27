@@ -1,5 +1,6 @@
 {
-  "root": "apps/fe-e2e",
+  "name": "fe-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "apps/fe-e2e/src",
   "projectType": "application",
   "targets": {
