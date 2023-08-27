@@ -9,8 +9,7 @@ export function App() {
     <>
       <Route
         path="/"
-        exact
-        render={() => (
+        element={
           <Box
             display="flex"
             justifyContent="center"
@@ -21,7 +20,7 @@ export function App() {
             <AddTask />
             <Tasks />
           </Box>
-        )}
+        }
       />
       {/* END: routes */}
     </>
