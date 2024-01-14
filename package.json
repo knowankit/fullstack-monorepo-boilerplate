@@ -23,7 +23,7 @@
     "apollo-server-express": "^3.6.7",
     "core-js": "^3.6.5",
     "formik": "^2.2.9",
-    "graphql": "^16.3.0",
+    "graphql": "^16.8.1",
     "mongoose": "^6.12.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",
